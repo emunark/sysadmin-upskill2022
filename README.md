@@ -7,12 +7,12 @@
 - [Summary](#summary)
 - [General Resources](#general-resources)
 - [Curriculum](#curriculum)
-    1. [Operating Systems + Linux Admin](#1---operating-systems--linux-admin)
-    2. [Networking + Cisco Admin](#2---networking--cisco-admin)
-    3. [Cloud Computing + Microsoft Admin](#3---cloud-computing--microsoft-admin)
-    4. [Virtualization](#4---virtualization)
-    5. [Automation & Security](#5---automation--security)
-    6. [Persistency & Databases](#6---persistency--databases)
+    - [1. Operating Systems + Linux Admin](#1---operating-systems--linux-admin)
+    - [2. Networking + Cisco Admin](#2---networking--cisco-admin)
+    - [3. Cloud Computing + Microsoft Admin](#3---cloud-computing--microsoft-admin)
+    - [4. Virtualization](#4---virtualization)
+    - [5. Automation & Security](#5---automation--security)
+    - [6. Persistency & Databases](#6---persistency--databases)
 - [Advanced Resources](#advanced-resources)
 - [To-Do](#to-do)
 
@@ -47,6 +47,10 @@ Este repositório tem como objetivo a partilha do conhecimento com outros estuda
         - [Git Cheatsheet](https://training.github.com/downloads/github-git-cheat-sheet/)
     - Markup languages like [Markdown](https://learn-markdown.github.io/), [HTML](https://www.w3schools.com/html/html_intro.asp) and [XML](https://www.w3schools.com/xml/)
     - [Regular Expressions](https://regex101.com/)
+    - Shortcuts for most commonly used tools via [ShortcutFoo](https://www.shortcutfoo.com/)
+<p>
+
+- [The Missing Semester of your CS Education](https://missing.csail.mit.edu/) - Aimed at CS students with some notions of programming and operating systems, this can be used by any auto-didact of an intermediate level. Essential if you want to learn to control the tools you're going to be working with (shell, vim, git, etc.)
 
 - [Rico's cheatsheets](https://devhints.io/) Collection of cheatsheets related to programming, command-line utilities and other apps (Bash, Git, Vim, VSCode, Markdown, Regex, etc.)
 
@@ -60,7 +64,7 @@ Este repositório tem como objetivo a partilha do conhecimento com outros estuda
 
 ## **1 - Operating Systems + Linux Admin**
 
-### Setting up your learning environment:
+### Setting up your learning environment
 
 1. Setup a Linux Virtual Machine environment:
 
@@ -85,8 +89,19 @@ Este repositório tem como objetivo a partilha do conhecimento com outros estuda
 
 3. Install some useful tools:
     - [Homebrew Package Manager](https://brew.sh/) (for macOS users only)
-    - [`tldr`](https://github.com/tldr-pages/tldr) - available as a package for most Linux distributions, homebrew for macOS and an extension for VSCode.
-    - [`shellcheck`](https://github.com/koalaman/shellcheck) - available as a package for most Linux distributions, homebrew for macOS and an extension for VSCode.
+    - [`tldr`](https://github.com/tldr-pages/tldr) - Community maintained help pages for CLI tools, for better readability than man pages. *Available as a package for most Linux distributions, homebrew for macOS and an extension for VSCode.*
+        - Alternatively, [cht.sh](https://cht.sh/) is a website that compiles all of community driven documentation into a neat little package: you can either install the CLI client or simply use `curl` like so:
+        <p>
+
+        ```
+        $ curl cht.sh/ls | more
+
+        ## or as a bash function to add to your .bashrc
+
+        doc () { curl "https://cht.sh/$1" | more }
+        ```
+
+    - [`shellcheck`](https://github.com/koalaman/shellcheck) - Linting tool to avoid common mistakes in your scripts. *Available as a package for most Linux distributions, homebrew for macOS and an extension for VSCode.*
 <p>
 
 ### **Study Materials**
@@ -109,12 +124,17 @@ Este repositório tem como objetivo a partilha do conhecimento com outros estuda
         - [Part 3 - awk and sed](https://bluescreenofjeff.com/2017-10-03-f-awk-yeah-advanced-sed-and-awk-usage-parsing-for-pentesters-3/)
 <p>
 
+- `htop` [explained](https://peteris.rocks/blog/htop/)
+
+- `ssh` [cheat sheet](https://www.marcobehler.com/guides/ssh-cheat-sheet) for popular commands, key generation and SSH agents
+
 - Other exercises:
     - [Linux Upskill Challenge](https://github.com/livialima/linuxupskillchallenge) - a series of challenges to teach you how to sysadmin a remote Linux server from the commandline. This gets you to setup a server on a cloud service like AWS or Azure.
     - [Operating Systems](https://github.com/bregman-arie/devops-exercises#operating-system)
     - [Hardware](https://github.com/bregman-arie/devops-exercises#hardware)
     - [Virtualization](https://github.com/bregman-arie/devops-exercises#virtualization) - ignore exercises after "Python - OOP"
     - [Regex](https://github.com/bregman-arie/devops-exercises#regex)
+
 #### **Bash Scripting**
 
 - [The Bash Hackers Wiki](https://wiki.bash-hackers.org/start) - All kinds of information on scripting, code snippets, how to's and further resources on bash and bash scripting.
@@ -122,6 +142,12 @@ Este repositório tem como objetivo a partilha do conhecimento com outros estuda
 - Practice your bash skills with exercises on [Exercism.org](https://exercism.org/tracks/bash/exercises) or at @bregman-arie's [repository](https://github.com/bregman-arie/devops-exercises/blob/master/topics/shell/README.md)
 
 - [Pure bash alternatives to external processes](https://github.com/dylanaraps/pure-bash-bible) - build functions in bash that can replace external programs like sed, awk, seq, ls, etc. Good reference for troubleshooting programs and scripts written in bash. Also available for [POSIX sh](https://github.com/dylanaraps/pure-sh-bible)
+
+- Improve your shell scripts:
+    - [Serious Shell Programming](https://freebsdfrau.gitbook.io/serious-shell-programming/) - Learn to make your command line programs compatible with all kinds of systems, from macOS, *BSD and even Windows.
+    - [Safe ways to do things in bash](https://github.com/anordal/shellharden/blob/master/how_to_do_things_safely_in_bash.md)
+    - [Better Bash Scripting in 15 minutes](https://robertmuth.blogspot.com/2012/08/better-bash-scripting-in-15-minutes.html)
+    - [Writing Robust Bash Shell Scripts](https://www.davidpashley.com/articles/writing-robust-shell-scripts/)
 
 #### **LPIC-1 Certification**
 
@@ -150,7 +176,7 @@ V zvtug nyfb or noyr gb cebivqr lbh n qvtvgny pbcl :)</details>
 - [Operating System Concepts Essentials](https://www.bookdepository.com/Operating-System-Concepts-Essentials-Second-Edition-Silberschatz/9781118804926?sr=1-1) 2nd Edition
 - [Operating System Concepts](https://www.bookdepository.com/Operating-System-Concepts-Abraham-Silberschatz/9781119800361?sr=1-1) 10th Edition
 - [Operating Systems: Internals and Design Principles, Global Edition](https://www.bookdepository.com/Operating-Systems-Internals-Design-Principles-Global-Edition-William-Stallings/9781292214290?sr=1-1) 9th Edition
-- [Fundamental do Linux](https://www.wook.pt/livro/fundamental-do-linux-paulo-trezentos/178326) 3rd Edition - Portuguese Only (*outdated*)
+- [Fundamental do Linux](https://www.wook.pt/livro/fundamental-do-linux-paulo-trezentos/178326) 3rd Edition - Portuguese Only
 <p>
 
 
