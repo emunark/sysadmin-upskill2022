@@ -95,7 +95,7 @@ Experimente o script anterior das seguintes formas:
 		Arg11: 11
 		eu sou o ./verargs e foram usados 12 argumentos
 
-- **c) verargs ~**
+- **c) verargs \~**
 
 		$ verargs ~
 		Arg1: /home/utilizador1
@@ -104,7 +104,7 @@ Experimente o script anterior das seguintes formas:
 		Arg11:
 		eu sou o ./verargs e foram usados 1 argumentos
 
-- **d) verargs ***
+- **d) verargs \***
 
 		$ verargs *
 		Arg1: conteudo2.txt
@@ -300,4 +300,3 @@ echo "Acertou! Número de tentativas: $guesses"
 
 exit
 ```
-
