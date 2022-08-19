@@ -180,7 +180,7 @@
     O comando `basename` remove a parte inicial do path de um ficheiro, deixando só o nome do próprio ficheiro (daí o nome basename)
 <p>
 
-> #### --> Exercícios Bash Parameter Expansion
+> #### --> Exercícios Bash Parameter Expansion [GNU Bash Manual](https://www.gnu.org/software/bash/manual/html_node/Shell-Parameter-Expansion.html) [Bash Hackers Wiki](https://wiki.bash-hackers.org/syntax/pe)
 <p>
 
 - **d) echo ${FILE%/*}**
