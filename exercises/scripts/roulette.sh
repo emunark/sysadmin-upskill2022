@@ -1,6 +1,7 @@
-#!/bin/bash
+#!/usr/bin/env bash
+echo "$BASH_VERSION"
 
-## roulette.sh
+## roulette.sh: adivinha um número entre 1 e 500
 
 read -p "Insira um número até 500: " num
 randomnum="$(( RANDOM %= 500 ))" ## $RANDOM is an internal Bash function (not a constant) that returns a pseudorandom integer in the range 0 - 32767.
