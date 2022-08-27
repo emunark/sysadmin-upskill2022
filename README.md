@@ -5,6 +5,7 @@
 # **Contents**
 
 - [Summary](#summary)
+- [Pre-requisites](#pre-requisites)
 - [General Resources](#general-resources)
 - [Curriculum](#curriculum)
     - [1. Operating Systems + Linux Admin](#1---operating-systems--linux-admin)
@@ -37,6 +38,14 @@ Este repositório tem como objetivo a partilha do conhecimento com outros estuda
 </details>
 <p>
 
+# **Pre-requisites:**
+
+I cannot stress this enough but before you start your journey as a sysadmin, it is essential that you learn basic skills in order to utilize computers and related technology efficiently.
+I assume that most people who have set their minds on such a life path, have had a somewhat extensive contact with computer but alas, it has never been correct for me before to make such assumptions before.
+
+As such, I recommend checking out Wikiversity's [Computer Skills](https://en.wikiversity.org/wiki/Computer_Skills) course, move on to IC3 [Internet and Computing Core Certification](https://en.wikiversity.org/wiki/IC3) and finally to [IT Fundamentals](https://en.wikiversity.org/wiki/IT_Fundamentals/Collection).
+
+This should be more than enough to get your foot in the world of IT and computers! Good luck!
 # **General Resources**
 
 - [Crash Course Computer Science](https://www.youtube.com/watch?v=tpIctyqH29Q&list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo) - Series of 10-min videos from early computing and low level computing concepts like the binary system, RAM, instruction sets, all the way to high level concepts like Machine Learning and the Internet.
@@ -204,7 +213,9 @@ V zvtug nyfb or noyr gb cebivqr lbh n qvtvgny pbcl :)</details>
 
 (In case you get really into Computer Sciences)
 
-- Before you dive in, make sure you're up to date with [highschool-level Algebra Mathematics](https://www.khanacademy.org/math/algebra-home)
+- Before you dive in, make sure you're up to date with Khan Academy's [Algebra course](https://www.khanacademy.org/math/algebra-home) or use one of OpenStax's [free textbooks](https://openstax.org/subjects/math)
+
+- Wikiversity's [School of Computer Science](https://en.wikiversity.org/wiki/School:Computer_Science)
 
 - Path to a [fully free self-taught education in Computer Science](https://github.com/ossu/computer-science) via OSSU
 
@@ -214,7 +225,6 @@ V zvtug nyfb or noyr gb cebivqr lbh n qvtvgny pbcl :)</details>
 
 > Updated 2022-08-16
 
-- [ ] Add solutions for class exercises
+- [ ] Add solutions for class 12 exercises
 - [ ] Add section for "student freebies"
-- [ ] Update curriculum section for other  (monthly)
 - [ ] Translate to Portuguese
