@@ -38,14 +38,14 @@ Este repositório tem como objetivo a partilha do conhecimento com outros estuda
 </details>
 <p>
 
-# **Pre-requisites:**
+# **Pre-requisites**
 
 I cannot stress this enough but before you start your journey as a sysadmin, it is essential that you learn basic skills in order to utilize computers and related technology efficiently.
-I assume that most people who have set their minds on such a life path, have had a somewhat extensive contact with computer but alas, it has never been correct for me before to make such assumptions before.
+I assume that most people who have set their minds on such a life path, have had a somewhat extensive contact with computer but alas, it has never been wise for me to make such assumptions before.
 
 As such, I recommend checking out Wikiversity's [Computer Skills](https://en.wikiversity.org/wiki/Computer_Skills) course, move on to IC3 [Internet and Computing Core Certification](https://en.wikiversity.org/wiki/IC3) and finally to [IT Fundamentals](https://en.wikiversity.org/wiki/IT_Fundamentals/Collection).
 
-This should be more than enough to get your foot in the world of IT and computers! Good luck!
+This should be more than enough to get your foot in the world of IT and computers. Good luck!
 # **General Resources**
 
 - [Crash Course Computer Science](https://www.youtube.com/watch?v=tpIctyqH29Q&list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo) - Series of 10-min videos from early computing and low level computing concepts like the binary system, RAM, instruction sets, all the way to high level concepts like Machine Learning and the Internet.
