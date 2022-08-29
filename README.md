@@ -223,8 +223,8 @@ V zvtug nyfb or noyr gb cebivqr lbh n qvtvgny pbcl :)</details>
 
 # **To-Do**
 
-> Updated 2022-08-16
+> Updated 2022-08-29
 
-- [ ] Add solutions for class 12 exercises
+- [x] Add solutions for class 12 exercises
 - [ ] Add section for "student freebies"
 - [ ] Translate to Portuguese
