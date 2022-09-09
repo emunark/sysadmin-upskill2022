@@ -63,7 +63,7 @@ Internetworking is the practice of interconnecting multiple computer networks, s
 
 [OSI](https://www.geeksforgeeks.org/layers-of-osi-model/?ref=lbp) - OSI stands for Open Systems Interconnection. It is a reference model that specifies standards for communications protocols and also the functionalities of each layer. 
 
-![OSITable](/sysadmin-upskill2022/assets/images/osimodel.png)
+![OSITable](/assets/images/osimodel.png)
 
 [TCP/IP](https://www.geeksforgeeks.org/tcp-ip-model/?ref=lbp) - The TCP/IP model is a concise version of the OSI model. It contains four layers, unlike seven layers in the OSI model.
 
@@ -71,7 +71,7 @@ Internetworking is the practice of interconnecting multiple computer networks, s
 
 ## [Differences between OSI and TCP/IP Model](https://testbook.com/learn/difference-between-tcp-ip-and-osi-model/)
 
-![OSIvsTCP](/sysadmin-upskill2022/assets/images/osivstcp.jpg)
+![OSIvsTCP](/assets/images/osivstcp.jpg)
 
 # Physical Layer (Part 1)
 
@@ -113,4 +113,4 @@ Also referred to as Wireless or Unbounded transmission media. No physical medium
 
 [Link](https://www.geeksforgeeks.org/transmission-modes-computer-networks/?ref=lbp)
 
-![transmission](/sysadmin-upskill2022/assets/images/transmissiontable.png)
+![transmission](/assets/images/transmissiontable.png)
