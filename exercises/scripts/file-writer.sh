@@ -11,5 +11,4 @@
 test ! -e "$1" && echo "Ficheiro nao existe." && exit 2
 
 # Writes content to the file.
-echo "$2" > "$1"
-echo "Escrevi a frase: \"$2\" em $(date +%T)" && exit 0
+echo "$2" > "$1" && echo "Escrevi a frase: \"$2\" em $(date +%T)" && exit 0
