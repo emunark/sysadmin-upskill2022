@@ -219,12 +219,13 @@ V zvtug nyfb or noyr gb cebivqr lbh n qvtvgny pbcl :)</details>
 
 - Path to a [fully free self-taught education in Computer Science](https://github.com/ossu/computer-science) via OSSU
 
+- Introduction to Computer Science and Programming via [Harvard's CS50](https://cs50.harvard.edu/x/2022/)
+
 - Deepen your knowledge by [teaching yourself Computer Science](https://teachyourselfcs.com/)
 
 # **To-Do**
 
 > Updated 2022-08-29
 
-- [x] Add solutions for class 12 exercises
 - [ ] Add section for "student freebies"
 - [ ] Translate to Portuguese
