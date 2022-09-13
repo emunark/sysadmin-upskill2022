@@ -37,7 +37,17 @@ An interconnection of multiple devices, also known as hosts, that are connected 
 
 [Link](https://www.geeksforgeeks.org/types-of-network-topology/?ref=lbp)
 
-The layout arrangement of the different devices in a network. Common examples include: Bus, Star, Mesh, Ring, and Daisy chain. 
+The layout arrangement of the different devices in a network.
+
+![topology](https://sf.ezoiccdn.com/ezoimgfmt/networkencyclopedia.com/wp-content/uploads/2020/11/topology-bus-star-ring-network-.jpg?ezimgfmt=ng:webp/ngcb2)
+
+Common examples include:
+
+* [Bus Network](https://networkencyclopedia.com/bus-topology/)
+* [Star Network](https://networkencyclopedia.com/star-topology/)
+* [Mesh Network]()
+* [Ring Network](https://networkencyclopedia.com/token-ring/)
+ 
 
 [Video](https://www.youtube.com/watch?v=zbqrNg4C98U)
 
@@ -99,13 +109,15 @@ Also referred to as Wireless or Unbounded transmission media. No physical medium
     - Less Secure
     - Used for larger distances
 
-![Image](http://ecomputernotes.com/images/Types-of-Transmission-Media.jpg)
+![typesmedia](http://ecomputernotes.com/images/Types-of-Transmission-Media.jpg)
 
 ## Sharing Transmission Media (Partilha do meio de transmissão)
 
 [Link](https://mike.passwall.com/networking/bcastvsppp.html)
 
 - **Broadcast:** A method of sending a signal where multiple parties may hear a single sender.
+
+- **Multicast:** Multicasting works in similar to Broadcasting, but in Multicasting, the information is sent to the targeted or specific members of the network. [More info](https://www.geeksforgeeks.org/multicasting-in-computer-network/)
 
 - **Point-to-point:** A method of communication where one "point" (person or entity) speaks to another entity
 
