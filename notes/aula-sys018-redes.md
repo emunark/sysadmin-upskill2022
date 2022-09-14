@@ -6,6 +6,8 @@ An interconnection of multiple devices, also known as hosts, that are connected 
 
 [Video](https://youtu.be/1cS5JPULDdY?list=PLG49S3nxzAnnOmvg5UGVenB_qQgsh01uC)
 
+---
+
 ## Brief History of Networks (Breve História de Redes)
 
 - Sistemas começaram por ligar-se via terminais simples (teletype);
@@ -20,6 +22,7 @@ An interconnection of multiple devices, also known as hosts, that are connected 
 
 [World Wide Web != Internet - What is the difference?](https://www.lifewire.com/difference-between-the-internet-and-the-web-2483335)
 
+---
 
 ## Goals of Networks (Motivações e exemplos de aplicação de redes de computadores)
 
@@ -32,6 +35,8 @@ An interconnection of multiple devices, also known as hosts, that are connected 
 - Inter-process Communication (IPC)
 
 - Flexible access
+
+---
 
 ## Types of Network Topology (Tipos de Topologia de Redes)
 
@@ -51,6 +56,8 @@ Common examples include:
 
 [Video](https://www.youtube.com/watch?v=zbqrNg4C98U)
 
+---
+
 ## Types of area networks (Classificação das redes de computadores)
 
 [Link](https://www.geeksforgeeks.org/types-of-area-networks-lan-man-and-wan/?ref=lbp)
@@ -62,12 +69,16 @@ Common examples include:
 
 [Video](https://youtu.be/lYIYcP4DSp8?list=PLG49S3nxzAnnOmvg5UGVenB_qQgsh01uC-9)
 
+---
+
 ## Internetworks (Interligação de redes)
 
 [Link 1](https://en.wikipedia.org/wiki/Internetworking)
 [Link 2](https://ecomputernotes.com/computernetworkingnotes/computer-network/internetworks)
 
 Internetworking is the practice of interconnecting multiple computer networks, such that any pair of hosts in the connected networks can exchange messages irrespective of their hardware-level networking technology. The resulting system of interconnected networks are called an internetwork, or simply an internet.
+
+---
 
 ## OSI and TCP/IP Models
 

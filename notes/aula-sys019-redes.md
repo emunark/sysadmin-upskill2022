@@ -10,6 +10,8 @@ Between the client and the server there are numerous entities, collectively call
 
 [An overview of HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview)
 
+---
+
 ## What is a client?
 
 A network client is a software that runs on a client computer and allows it to establish connectivity with services running on server computers.
@@ -38,6 +40,8 @@ Proxies may perform numerous functions:
 - Authentication (to control access to different resources)
 - Logging (allowing the storage of historical information)
 
+---
+
 ## The HTTP Request Circle
 
 To present a Web page, the browser sends an original request to fetch the HTML document that represents the page. It then parses this file, making additional requests corresponding to execution scripts, layout information (CSS) to display, and sub-resources contained within the page (usually images and videos). The Web browser then mixes these resources to present to the user a complete document, the Web page.
@@ -59,6 +63,8 @@ A typical HTTP request / response circle involves multiple requests for sub-reso
 - The browser requests data. The server returns **data** (in **XML** or **JSON**).
     * **XML (eXtensible Markup language)** - Often used for distributing data over the Internet.
     * **JSON (JavaScript Object Notation)** - Lightweight format for storing and transporting data.
+
+---
 
 ## HTTP Messages
 
