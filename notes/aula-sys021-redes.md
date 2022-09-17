@@ -201,7 +201,7 @@ There are three types of switching techniques:
 
 ![circuitswitching](https://cdn.comparitech.com/wp-content/uploads/2019/03/Circuit-Switching-1024x427.jpg)
 
-1. **Message Switching**
+2. **Message Switching**
     - A message is transferred as a complete unit and routed through intermediate nodes at which it is stored and forwarded.
     - There is no establishment of a dedicated path between the sender and receiver.
     - The destination address is appended to the message.
@@ -211,7 +211,7 @@ There are three types of switching techniques:
 
 ![messageswitching](https://digitalnoteshub.com/wp-content/uploads/2020/12/Message-switching-1024x576.png)
 
-1. **Packet Switching**
+3. **Packet Switching**
     - The message is sent in one go, but it is divided into smaller pieces called **packets**, and they are sent individually (and out of order).
     - Every packet contains some information in its headers such as source address, destination address and sequence number (to identify their order).
     - Packets will travel across the network, taking the shortest path as possible.
@@ -223,3 +223,33 @@ Comparison table:
 
 ![switching](/assets/images/switching.png)
 
+
+# Summary
+
+- The physical layer is the basis of all networks.
+
+- Nature imposes two fundamental limits on all channels, and these determine their bandwidth.
+
+- **Transmission media can be guided or unguided**.
+    - The principal guided media are twisted pair, coaxial cable, and fiber optics.
+    - Unguided media include terrestrial radio, microwaves, infrared, lasers through the air, and satellites.
+
+- **Digital modulation methods** send bits over guided and unguided media as analog signals.
+
+- Line codes operate at **baseband**, and signals can be placed in a **passband** (broadband) by modulating the amplitude, frequency, and phase of a carrier.
+
+- Channels can be shared between users with **time, frequency, and code division multiplexing**.
+
+- A key element in many wide area networks is the telephone system.
+    - **Multiplexing with WDM** to provision many high capacity links over individual fibers
+    - **Multiplexing with TDM** to share each high rate link between users.
+    - Both **circuit switching** and **packet switching** play a role.
+
+- Another system for network access is the **cable infrastructure**, which has grad- ually evolved from **coaxial cable** to **hybrid fiber coax**, where many cable Internet service providers now offer subscribers up to 1 Gbps.
+
+- **Mobile phones** are currently in widespread use for voice and data; since 4G, all voice is, in fact, carried over a packet-switched network.
+    - The first generation, 1G, was analog and dominated by AMPS.
+    - 2G was digital, with GSM presently the most widely deployed mobile phone system in the world.
+    - 3G is digital and based on broadband CDMA.
+    - 4G’s main innovation was to shift to a packet-switched core.
+    - 5G is defined by smaller cell sizes, massive MIMO, and the use of significantly more spectrum.
