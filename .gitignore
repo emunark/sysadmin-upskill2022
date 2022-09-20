@@ -1,3 +1,4 @@
 .gitignore
 .DS_Store
 Upskill.code-workspace
+assets/.DS_Store
