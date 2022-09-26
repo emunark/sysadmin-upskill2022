@@ -2,13 +2,31 @@
 
 ## Protocol Stack
 
-![stack](https://www.w3.org/People/Frystyk/thesis/tcp.gif)
+![stack](/assets/images/protocolstack.png)
 
 ## Hub, Switch or Router?
 
 [Video](https://www.youtube.com/watch?v=1z0ULvg_pW8)
 
-## VLAN - Trunk and Access Ports
+A switch (comutador Ethernet in Portuguese) is a layer 2 device.
+
+- **Selective Forwarding** based on the destination address specified in the frame header
+    - Keeps a MAC address table and re-transmits only to the destination port
+    - Broadcasts only if it doesn't have the destination address in the MAC address table
+- **Transparent**: hosts don't detect the presence of switches
+- **Plug-and-play, self-learning**: doesn't need configuration
+- **Auto-detection**: adapt to different standards like 100BASET, 1000BASET, 100BASEFX, 10BASEX (legacy segments), etc.
+- Can **receive multiple frames simultaneously** thanks to a port buffer
+    - It can also **retransmit** multiple frames simultaneously
+- No collisions at the station level, **CSMA/CD is implemented at the switch level**
+- Supports **different communication modes**: simplex/half-duplex/full-duplex
+- Supports **Spanning Tree protocol** implementation
+- **Different switching modes**:
+    - **Store-and-Forward** (frame buffer - guarantees NO collision and NO errors)
+    - **Cut-through** (forwards frame before the whole frame has been received, after destination address data has been received)
+    - **Modified Cut-through** (forwards frame before the whole frame has been received, after receiving 64 bytes of data  - guarantees NO COLLISION)
+
+## VLAN
 
 VLANs allow a single extended LAN to be partitioned into several seemingly separate LANs.
 
@@ -16,7 +34,24 @@ Each virtual LAN is assigned an identifier (sometimes called a color), and **pac
 
 This has the effect of limiting the number of segments in an extended LAN that will receive any given broadcast packet.
 
-[Video](https://youtu.be/JCb5RW4JKlQ)
+VLANs can be based on:
+
+- Ports: switch ports are configured on the switch's software to appear as a single physical switch
+    - Each port is assigned a VLAN ID
+    - Frames are only forwarded if both ports belong to the same VLAN
+    - Broadcast frames are only broadcast inside the VLAN
+- IPs
+- MAC Addressess
+
+### Trunk Access
+
+- Transports multiple VLANs
+- Used to interconnect switches
+- Frames are tagged with a VLAN ID
+
+![trunkports](https://imgs.search.brave.com/e97agPKipo539VDaSfzPMYr6eh2-gsHDiKhg-YQxa-g/rs:fit:631:236:1/g:ce/aHR0cDovL25ldHp3/ZWIud2VlYmx5LmNv/bS91cGxvYWRzLzUv/Ny8xLzcvNTcxNzMy/NDUvdmxhbnMtdnRw/ZnJhbWUucG5nPzYz/Mw)
+
+[Video - Trunk and Access Ports](https://youtu.be/JCb5RW4JKlQ)
 
 ## Spanning Tree Algorithm (IEEE 802.1D)
 
@@ -26,9 +61,11 @@ Protocol which enables networks bridges to locate loops in a local area network.
 
 [Link](https://en.wikipedia.org/wiki/Spanning_Tree_Protocol)
 
-[Video 1](https://www.youtube.com/watch?v=mLCpdsOZM9c)
+[Link 2](https://www.ciscopress.com/articles/article.asp?p=2832407&seqNum=4)
 
 Building and expanding bridged networks was difficult because loops, where more than one path leads to the same destination, could result in the collapse of the network. Redundant paths in the network meant that a bridge could forward a frame in multiple directions. Therefore loops could cause Ethernet frames to fail to reach their destination, thus flooding the network.
+
+[Video 1](https://www.youtube.com/watch?v=mLCpdsOZM9c)
 
 [Video 2](https://www.youtube.com/watch?v=japdEY1UKe4)
 
@@ -67,7 +104,9 @@ All switches constantly communicate with their neighbors using **bridge protocol
 
 Root Ports are elected based on the port cost. The cost is the collection of **each outgoing port to the root**.
 
-Port Speed | Original | New
+In 2004, the revised 802.1D had its 16-bit path cost increased to a 32-bit value, providing more granularity:
+
+Port Speed | Original | Revised IEEE 802.1D-1998
 --- | --- | ---
 10 Mbps | 100 | 2,000,000
 100 Mbps | 19 | 200,000

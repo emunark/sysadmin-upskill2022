@@ -133,6 +133,8 @@ Deprecated protocols:
 
 ### CSMA/CD - Medium Access Control Protocol
 
+[Video](https://www.youtube.com/watch?v=iKn0GzF5-IU)
+
 - Designed for 802.3 Ethernet
 
 - Stations on a CSMA/CD LAN can access the network at any time.
