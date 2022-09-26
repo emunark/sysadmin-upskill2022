@@ -122,7 +122,7 @@ Mathematical represantion (XOR bit by bit):
 
 - Cellular Networks [Video](https://www.youtube.com/watch?v=SdtCkGacrg0)
 
-![mobilenetworks](https://rantcell.com/images/table-comparison-of-2g-3g-4g-5g.png)
+![mobilenetworks](/assets/images/mobilenetworks.png)
 
 Different transmission media have different properties such as bandwidth, delay, cost and ease of installation and maintenance.
 

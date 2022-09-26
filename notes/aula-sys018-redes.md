@@ -137,3 +137,7 @@ Also referred to as Wireless or Unbounded transmission media. No physical medium
 [Link](https://www.geeksforgeeks.org/transmission-modes-computer-networks/?ref=lbp)
 
 ![transmission](/assets/images/transmissiontable.png)
+
+# Exercises
+
+Solutions to class exercises [here](/exercises/aula-sys017-redes-exercises.md) - in Portuguese
