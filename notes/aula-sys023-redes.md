@@ -4,9 +4,17 @@
 
 ![stack](/assets/images/protocolstack.png)
 
-## Hub, Switch or Router?
+## Layer 2 Devices
 
-[Video](https://www.youtube.com/watch?v=1z0ULvg_pW8)
+[Video - Hub, Switch or Router?](https://www.youtube.com/watch?v=1z0ULvg_pW8)
+
+Many types of hardware are associated with the data link layer. **Network interface cards** typically implement a specific data link layer technology, so they are often called **Ethernet cards**, Token Ring cards, and so on.
+
+There are also a number of network interconnection devices that are said to operate at layer 2 in whole or in part because they make decisions about what to do with data they receive by looking at data link layer frames. These devices include most **bridges, switches, and brouters**, though the latter two also encompass functions performed by layer 3.
+
+Some of the most popular technologies and protocols generally associated with layer 2 are Ethernet, Token Ring, FDDI (plus CDDI), HomePNA, IEEE 802.11, Asynchronous Transfer Mode (ATM), TCP/IP’s Serial Line Interface Protocol (SLIP), and TCP/IP’s Point-to-Point Protocol (PPP).
+
+### Switches
 
 A switch (comutador Ethernet in Portuguese) is a layer 2 device.
 

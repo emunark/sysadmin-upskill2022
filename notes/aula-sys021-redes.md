@@ -245,7 +245,7 @@ Comparison table:
     - **Multiplexing with TDM** to share each high rate link between users.
     - Both **circuit switching** and **packet switching** play a role.
 
-- Another system for network access is the **cable infrastructure**, which has grad- ually evolved from **coaxial cable** to **hybrid fiber coax**, where many cable Internet service providers now offer subscribers up to 1 Gbps.
+- Another system for network access is the **cable infrastructure**, which has gradually evolved from **coaxial cable** to **hybrid fiber coax**, where many cable Internet service providers now offer subscribers up to 1 Gbps.
 
 - **Mobile phones** are currently in widespread use for voice and data; since 4G, all voice is, in fact, carried over a packet-switched network.
     - The first generation, 1G, was analog and dominated by AMPS.

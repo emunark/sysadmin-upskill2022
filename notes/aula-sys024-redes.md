@@ -6,6 +6,46 @@ The network layer is primarly concerned with the delivery between devices that m
 
 In this layer, the protocol unit is the **packet**.
 
+## Routers - Layer 3 Devices
+
+The network interconnection devices that operate at the network layer are usually called **routers**. They are responsible for the routing functions because they receive packets as they are sent along each “hop” of a route and send them on the next leg of their trip. They communicate with each other using routing protocols in order to determine the best routes for sending traffic efficiently.
+
+### Routing Protocols
+
+[Link](https://en.wikipedia.org/wiki/Routing)
+
+With **static routing**, small networks may use manually configured routing tables. Larger networks have complex topologies that can change rapidly, making the manual construction of routing tables unfeasible.
+
+**Dynamic routing** attempts to solve this problem by constructing routing tables automatically, based on information carried by routing protocols, allowing the network to act nearly autonomously in avoiding network failures and blockages. Dynamic routing dominates the Internet.
+
+Examples of dynamic-routing protocols and algorithms include Routing Information Protocol (RIP), Open Shortest Path First (OSPF) and Enhanced Interior Gateway Routing Protocol (EIGRP).
+
+Differentiation of routing protocols is on basis of the algorithms and metrics they use.
+
+**Algorithm** is a method that the protocol uses for determining the best route between any pair of networks, and for sharing routing information between routers.
+
+**Metric** is a measure of "cost" that is used to asses the efficiency of a particular route.
+#### Most common Routing Algorithms
+
+- **Minimal**: the router only knows its neighbours and doesn't have a routing table, **"Flooding"**
+    - Every incoming packet is sent through every outgoing link except the one it arrived on.
+    - Used in bridging and in systems such as Usenet and peer-to-peer file sharing and as part of some routing protocols, including OSPF, DVMRP, and those used in ad-hoc wireless networks (WANETs)
+    - **Selective flooding**, a variant that partially addresses these issues by only sending packets to routers in the same direction. Routers don't send every incoming packet on every line but only on those lines which are going approximately in the right direction.
+
+![flooding](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Flooding_routing.gif/440px-Flooding_routing.gif)
+
+- **Decentralized**: Routers knows its neighbours AND the cost to get to each one of them. By exchanging information with its neighbours, it can build a routing table, **"Distance vector algorithms"**
+    - Distance metric is the number of hops, or routers, between networks
+    - Routers regularly send their routing table to each router they immediately connect with (their neighbors or peers)
+
+- **Global**: Routers know the entirety of the network topology and use that information to build a routing table, **"Link State Algorithms" or "Shortest-Path First"**
+    - Each router maintains a map describing the current network topology
+    - Each map is updated regularly by testing reachability with other routers
+    - A variety of metrics can be used to indicate the true cost of sending a datagram over a particular route
+    - Allow routs to be selected on more realistic metrics of cost than simply the number of hops
+
+[Dijkstra's Shortest Path Algorithm](https://www.youtube.com/watch?v=GazC3A4OQTE)
+
 ## Internet Protocol (IP)
 
 The main protocol at the network layer is the Internet Protocol (IP).
@@ -53,43 +93,6 @@ As a layer 3 protocol it provides a service to layer 4 "Transport", represented 
     - Datagrams being sent to a distant network must be delivered indirectly
     - Possible via routing through intermediate devices (routers)
     - IP accomplishes this with support from protocols like ICMP, RIP and BGP
-
-### Routing Protocols
-
-[Link](https://en.wikipedia.org/wiki/Routing)
-
-With **static routing**, small networks may use manually configured routing tables. Larger networks have complex topologies that can change rapidly, making the manual construction of routing tables unfeasible.
-
-**Dynamic routing** attempts to solve this problem by constructing routing tables automatically, based on information carried by routing protocols, allowing the network to act nearly autonomously in avoiding network failures and blockages. Dynamic routing dominates the Internet.
-
-Examples of dynamic-routing protocols and algorithms include Routing Information Protocol (RIP), Open Shortest Path First (OSPF) and Enhanced Interior Gateway Routing Protocol (EIGRP).
-
-Differentiation of routing protocols is on basis of the algorithms and metrics they use.
-
-**Algorithm** is a method that the protocol uses for determining the best route between any pair of networks, and for sharing routing information between routers.
-
-**Metric** is a measure of "cost" that is used to asses the efficiency of a particular route.
-
-#### Most common Routing Algorithms
-
-- **Minimal**: the router only knows its neighbours and doesn't have a routing table, **"Flooding"**
-    - Every incoming packet is sent through every outgoing link except the one it arrived on.
-    - Used in bridging and in systems such as Usenet and peer-to-peer file sharing and as part of some routing protocols, including OSPF, DVMRP, and those used in ad-hoc wireless networks (WANETs)
-    - **Selective flooding**, a variant that partially addresses these issues by only sending packets to routers in the same direction. Routers don't send every incoming packet on every line but only on those lines which are going approximately in the right direction.
-
-![flooding](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Flooding_routing.gif/440px-Flooding_routing.gif)
-
-- **Decentralized**: Routers knows its neighbours AND the cost to get to each one of them. By exchanging information with its neighbours, it can build a routing table, **"Distance vector algorithms"**
-    - Distance metric is the number of hops, or routers, between networks
-    - Routers regularly send their routing table to each router they immediately connect with (their neighbors or peers)
-
-- **Global**: Routers know the entirety of the network topology and use that information to build a routing table, **"Link State Algorithms" or "Shortest-Path First"**
-    - Each router maintains a map describing the current network topology
-    - Each map is updated regularly by testing reachability with other routers
-    - A variety of metrics can be used to indicate the true cost of sending a datagram over a particular route
-    - Allow routs to be selected on more realistic metrics of cost than simply the number of hops
-
-[Dijkstra's Shortest Path Algorithm](https://www.youtube.com/watch?v=GazC3A4OQTE)
 
 ### Other IP-Related Protocols
 
@@ -145,14 +148,23 @@ Any device will have at least one IP address: one PER network interface.
 
 ![ipv4-division](/assets/images/ipv4-division.png)
 
-#### IPv4 Addressing Categories
+### IPv4 Addressing Categories
 
 Different systems of indicating where in the IP address the host ID is found.
 
 - **Conventional (Classful) Addressing**
-    - Three main classes of addresses - A, B and C
+    - Three main classes of addresses - A, B and C, designated for conventional unicast addresses and taking up seven-eighths of the address space.
+    - Class D is reserved for IP multicasting, and Class E is reserved for experimental use.
     - Dividing line between bits occurs only on octet boundaries
     - e.g., class C addresses devote 24 bits to the network and 8 bits to the host ID
+
+![ip-classful](/assets/images/ip-classful.png)
+
+![ip-bitassignments](/assets/images/ip-classfulassignments.png)
+
+![ip-patterns](/assets/images/ip-patterns.png)
+
+![ip-reserved](/assets/images/ip-reserved.png)
 
 [Video](https://youtu.be/Q3wYfb3jnE8?list=PLG49S3nxzAnlCJiCrOYuRYb6cne864a7G)
 
@@ -169,15 +181,29 @@ Different systems of indicating where in the IP address the host ID is found.
     - e.g. if 227.82.157.177 is part of a network where the first 27 bits are used for the network ID, then the classless addressing is 227.82.157.160/27
     - /27 is the same as 255.255.255.224 subnet mask, since it has 27 one bits followed by 5 zeros.
 
+#### CIDR Notation
+
+![cidr-notation](/assets/images/cidr-notation.png)
+
+#### Subnetting
+
 [Video 1](https://youtu.be/7AGp1glJm8M?list=PLG49S3nxzAnlCJiCrOYuRYb6cne864a7G)
 [Video 2](https://youtu.be/4kMGs9-HDEk?list=PLG49S3nxzAnlCJiCrOYuRYb6cne864a7G)
+[Video 3](https://youtu.be/XMzLpGKTu50?list=PLG49S3nxzAnlCJiCrOYuRYb6cne864a7G)
 
-#### Default Gateway
+![subnetmask-calc](/assets/images/subnetmask-calc.png)
+
+### Supernetting
+
+
+
+
+### Default Gateway
 - Often specified along with the IP address for a device
 - It is the IP address of the router that provides default routing function for a particular device
 - When a device wants to send a datagram to a device it can't see on its local network, it sends it to the default gateway, which takes cares of the routing functions.
 
-#### Multihoming
+### Multihoming
 
 - If a device has more than one interface to the internetwork, it will have more than one IP address. e.g. Routers, which connect together different networks and must have an IP address for the interface on each one
 

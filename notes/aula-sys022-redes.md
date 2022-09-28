@@ -4,7 +4,7 @@
 
 [Link](https://paginas.fe.up.pt/~jruela/redes/teoricas/Data_link_v0809_mieec.pdf)
 
-Main characteristics:
+### Main characteristics
 
 - Data Link layer transports **frames** between network nodes;
 
@@ -12,7 +12,7 @@ Main characteristics:
 
 - **Provides** a well-defined **service interface to the network layer**;
 
-Main functions:
+### Main functions
 
 - Frame synchronization / delineation: **Framing** sequences of bytes as self-contained **segments**;
 
@@ -40,6 +40,8 @@ Other functions of the data link layer:
 
 ---
 
+## Sublayers - MAC and LLC
+
 Between the Physical and Data Link layers, there are **Medium Access Control (MAC)** and **Logical Link Control (LLC)** sublayers.
 
 [Link](https://www.ciscopress.com/articles/article.asp?p=2092245&seqNum=2)
@@ -64,17 +66,17 @@ An LLC header tells the data link layer what to do with a packet when it receive
 
 ![ieee802](https://ptgmedia.pearsoncmg.com/images/chap3_9781587143762/elementLinks/03fig04_alt.jpg)
 
-The IEEE 802.3 Frame Format vs. classic Ethernet frame
-
-![frameformat](https://ptgmedia.pearsoncmg.com/images/chap3_9781587143762/elementLinks/03fig06_alt.jpg)
-
-Original the Ethernet header did not use an LLC header. Instead, it used a type field in the Ethernet header to identify the Layer 3 protocol being carried in the Ethernet frame.
-
 ---
 
 ## Evolution of Ethernet Protocols
 
 [Link](https://en.wikipedia.org/wiki/Ethernet#Evolution)
+
+The IEEE 802.3 Frame Format vs. classic Ethernet frame
+
+![frameformat](https://ptgmedia.pearsoncmg.com/images/chap3_9781587143762/elementLinks/03fig06_alt.jpg)
+
+Original the Ethernet header did not use an LLC header. Instead, it used a type field in the Ethernet header to identify the Layer 3 protocol being carried in the Ethernet frame.
 
 ### Original Ethernet
 
@@ -212,7 +214,7 @@ Received frames may differ from transmitted ones due to a variety of reasons
 - Error detection mechanisms cope with these situations and is expected they will catch most of these errors
 
 - Some errors may not be detected, erroneous frames are accepted for processing at the Data Link layer
-    - Can be detected at the DLL, at a higher layer or remain undetected
+    - Can be detected at the Data Link Layer, at a higher layer or remain undetected
 
 - Tranmission errors can occur in a random way and are independent (**single bit errors**) or in **bursts**, affecting close by bits
 
