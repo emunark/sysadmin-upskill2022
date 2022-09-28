@@ -168,7 +168,7 @@ Different systems of indicating where in the IP address the host ID is found.
 
 [Video](https://youtu.be/Q3wYfb3jnE8?list=PLG49S3nxzAnlCJiCrOYuRYb6cne864a7G)
 
-- **Subnetted Classful Addressing**
+- **Subnetted Classful Addressing** (superceded by Classless Addressing)
     - Take some number of bits from a class A, B or C host ID and use them for a **subnet identifier (subnet ID)**
     - Subnet ID is used for routing with different subnetworks inside a complete network
     - e.g., class C normally uses first 24 bits for network ID and 8 bits for host ID. The host ID can be split into 3 bits for subnet ID and 5 bits for host ID
@@ -195,8 +195,9 @@ Different systems of indicating where in the IP address the host ID is found.
 
 ### Supernetting
 
+Under CIDR, you have many hierarchical levels: You split big blocks into smaller blocks, and then still-smaller blocks, and so on. It makes sense to manage blocks in a similar hierarchical manner as well. So what happens is that IANA/ ICANN divides addresses into large blocks, which it distributes to the four regional Internet registries (RIRs): APNIC, ARIN, LACNIC, and RIPE NCC. These then further divide the address blocks and distribute them to lower-level national Internet registries (NIRs), local Internet registries (LIRs), and/or individual organizations such as Internet service providers (ISPs)
 
-
+![supernetting](/assets/images/supernetting.png)
 
 ### Default Gateway
 - Often specified along with the IP address for a device
