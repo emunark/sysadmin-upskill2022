@@ -1,6 +1,6 @@
-# Aula 024 - Redes
+# Aula 024 - Redes - Layer 3 Network, Routing, IPv4 and ICMP
 
-## Layer 3 - "Network"
+## Layer 3 - Network
 
 The network layer is primarly concerned with the delivery between devices that may be on different networks, interconnected in an arbitrary manner i.e. an internetwork.
 

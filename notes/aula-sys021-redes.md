@@ -1,10 +1,10 @@
-# Aula 021 - Redes
+# Aula 021 - Redes - Layer 1 Physical Layer
 
 ## **Base teórica da comunicação de dados**
 
 Jean-Baptiste Fourier provou que a função estável f(t) com o período de tempo T pode ser construída como a soma de um número de senos e co-senos, permitindo a representação do valor da tensão ou corrente com um valor único.
 
-# Physical Layer (Cont.)
+# Layer 1 - Physical Layer (Cont.)
 
 [Link](https://en.wikipedia.org/wiki/Physical_layer)
 

@@ -1,6 +1,4 @@
-# Aula 019 - Redes - Aula Prática
-
-Traffic Sniffing c/ a aplicação Wireshark
+# Aula 019 - Redes - Aula Prática "Traffic Sniffing com a aplicação Wireshark"
 
 ## Conceito explorado: Equipamento físico (placa de rede) e loopback
 
@@ -116,6 +114,6 @@ Quanto ao processo de envio, é precisamente ao contrário, cada camada recebe o
 
 [2]:
 
-**Chapter 5 - Page 97 - TCP/IP Guide** 
+**Chapter 5 - Page 97 - TCP/IP Guide**
 
 ![encapsulation](/assets/images/pduencapsulation.png)

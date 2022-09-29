@@ -1,4 +1,4 @@
-# Aula 018 - Redes
+# Aula 018 - Redes - Networking goals, OSI model and network types andmedium. Layer 1 Physical Layer
 
 **What is a computer network?**
 

@@ -1,4 +1,4 @@
-# Aula 023 - Redes
+# Aula 023 - Redes - Layer 2 devices, VLANs, Spanning Tree Protocol
 
 ## Protocol Stack
 
