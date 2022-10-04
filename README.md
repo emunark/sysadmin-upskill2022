@@ -48,7 +48,7 @@ As such, I recommend checking out Wikiversity's [Computer Skills](https://en.wik
 This should be more than enough to get your foot in the world of IT and computers. Good luck!
 # **General Resources**
 
-- [Crash Course Computer Science](https://www.youtube.com/watch?v=tpIctyqH29Q&list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo) - Series of 10-min videos from early computing and low level computing concepts like the binary system, RAM, instruction sets, all the way to high level concepts like Machine Learning and the Internet.
+- Professor Messer's CompTIA A+ videos [Part 1](https://www.youtube.com/playlist?list=PLG49S3nxzAnnOmvg5UGVenB_qQgsh01uC) [Part 2](https://www.youtube.com/playlist?list=PLG49S3nxzAnna96gzhJrzkii4hH_mgW4b) - A great starting point for aspiring IT professionals with little to no technical background.
 
 - Learn ASAP, these are universal skills across the IT world:
     - [Git and Github](https://docs.github.com/en)
@@ -113,7 +113,7 @@ This should be more than enough to get your foot in the world of IT and computer
     - [`shellcheck`](https://github.com/koalaman/shellcheck) - Linting tool to avoid common mistakes in your scripts. *Available as a package for most Linux distributions, homebrew for macOS and an extension for VSCode.*
 <p>
 
-### **Study Materials**
+### Study Materials
 
 - Master the art of the command line [in one page](https://github.com/jlevy/the-art-of-command-line)
     - Or try out this free book by William Shotts, [The Linux Command Line](https://sourceforge.net/projects/linuxcommand/files/TLCL/19.01/TLCL-19.01.pdf/download) and it's sequel [Adventures with the Command Line](https://sourceforge.net/projects/linuxcommand/files/AWTLCL/21.10/AWTLCL-21.10.pdf/download). Covers basic command line use as well as bash shell scripting.
@@ -158,13 +158,13 @@ This should be more than enough to get your foot in the world of IT and computer
     - [Better Bash Scripting in 15 minutes](https://robertmuth.blogspot.com/2012/08/better-bash-scripting-in-15-minutes.html)
     - [Writing Robust Bash Shell Scripts](https://www.davidpashley.com/articles/writing-robust-shell-scripts/)
 
-#### **LPIC-1 Certification**
+#### LPIC-1 Certification
 
 - [Official LPI exam page](https://www.lpi.org/our-certifications/lpic-1-overview)
 
 - [IBM's Roadmap for LPIC-01](https://developer.ibm.com/tutorials/l-lpic1-map/)
 
-### **Further References**
+### Further References
 
 - [GNU Manuals Online](https://www.gnu.org/manual/manual.html) - Most tools used in the course were developed by the GNU project. RTFM (Read the F*cking Manual) for every tool.
 
@@ -173,7 +173,7 @@ This should be more than enough to get your foot in the world of IT and computer
 - [Gentoo Wiki](https://wiki.gentoo.org/wiki/Main_Page) - Same as Arch Wiki. Use as a reference for any distribution.
 
 - [HowtoForge](https://www.howtoforge.com/) - Generalized Linux tutorials
-### **Class Recommended Reading**
+### Class Recommended Reading
 
 <details><summary>Need help? Look up Rot13</summary>
 Lbh pna svaq nyy bs gurfr obbxf bayvar ng Yvotra.yv (vs gung nqqerff qbrf abg jbex, hfr QhpxQhpxTb gb frnepu sbe zveebf).
@@ -191,7 +191,27 @@ V zvtug nyfb or noyr gb cebivqr lbh n qvtvgny pbcl :)</details>
 
 ## **2 - Networking + Cisco Admin**
 
-*To be updated in September 2022.*
+### Getting Started
+
+- [Professor Messer's Network+ Videos](https://www.youtube.com/playlist?list=PLG49S3nxzAnlCJiCrOYuRYb6cne864a7G)
+- Cisco's [Networking Academy](https://www.netacad.com) and [Skills for All](https://skillsforall.com)
+    - Practice tests are available in courses like [Networking Basics](https://skillsforall.com/course/networking-basics?userLang=en-US)
+    - Install [Packet Tracer](https://skillsforall.com/course/getting-started-cisco-packet-tracer?userLang=en-US) to build and test networks in a virtual environment
+- Familiarize yourself with Wireshark, a packet analyzer tool
+    - Learning resources at [Wireshark's official website](https://www.wireshark.org/#learnWS)
+
+### Reference Books
+
+- [TCP/IP Guide](http://www.tcpipguide.com/free/index.htm)
+- [Computer Networks: A System's Approach](https://book.systemsapproach.org/index.html)
+- Computer Networks by Andrew S. Tanenbaum
+
+### Useful Github Repositories
+
+- [90 Days of DevOps' The OSI model](https://github.com/MichaelCade/90DaysOfDevOps/blob/main/Days/day22.md)
+- [90 Days of DevOps' Network Protocols](https://github.com/MichaelCade/90DaysOfDevOps/blob/main/Days/day23.md)
+- [@ILS-Z399](https://github.com/ILS-Z399/06a-Exercises-Networking)
+- [@bregman-arie](https://github.com/bregman-arie/devops-exercises#network)
 
 ## **3 - Cloud Computing + Microsoft Admin**
 
@@ -223,9 +243,10 @@ V zvtug nyfb or noyr gb cebivqr lbh n qvtvgny pbcl :)</details>
 
 - Deepen your knowledge by [teaching yourself Computer Science](https://teachyourselfcs.com/)
 
+- [Crash Course Computer Science](https://www.youtube.com/watch?v=tpIctyqH29Q&list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo) - Series of 10-min videos from early computing and low level computing concepts like the binary system, RAM, instruction sets, all the way to high level concepts like Machine Learning and the Internet.
+
 # **To-Do**
 
-> Updated 2022-08-29
+> Updated 2022-10-04
 
 - [ ] Add section for "student freebies"
-- [ ] Translate to Portuguese
