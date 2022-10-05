@@ -133,7 +133,7 @@ Deprecated protocols:
 
 ---
 
-### CSMA/CD - Medium Access Control Protocol
+## CSMA/CD - Medium Access Control Protocol
 
 [Video](https://www.youtube.com/watch?v=iKn0GzF5-IU)
 
@@ -157,6 +157,18 @@ Types of CSMA:
 2. **Nonpersistent**: if busy, waits a random amount of time for retransmission attempt
 
 3. **p-persistent**: transmits at a free slot with *p* probability, if it doesn't transmit then it repeats the process until transmission is complete or another station gains channel access, at which point a random time for retransmission is generated.
+
+### Binary Exponential Back-off
+
+Collision resolution mechanism used in random access MAC protocols (CSMA/CD).
+
+Exponential backoff algorithms can be **used to avoid network collisions**.
+
+In a point-to-multipoint or multiplexed network, multiple senders communicate over a single shared channel. If two senders attempt to transmit a message at the same time, or "talk over" each other, a collision occurs and the messages are damaged or lost. Each sender can then back off before attempting to retransmit the same message again.
+
+This algorithm is generally used in Ethernet to schedule re-transmissions after collisions.
+
+If a collision takes place between 2 stations, they may restart transmission as soon as they can after the collision. This will always lead to another collision and form an infinite loop of collisions leading to a deadlock. To prevent such scenario back-off algorithm is used.
 
 ---
 
