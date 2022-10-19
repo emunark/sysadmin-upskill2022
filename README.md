@@ -188,7 +188,6 @@ V zvtug nyfb or noyr gb cebivqr lbh n qvtvgny pbcl :)</details>
 - [Fundamental do Linux](https://www.wook.pt/livro/fundamental-do-linux-paulo-trezentos/178326) 3rd Edition - Portuguese Only
 <p>
 
-
 ## **2 - Networking + Cisco Admin**
 
 ### Getting Started
@@ -215,7 +214,27 @@ V zvtug nyfb or noyr gb cebivqr lbh n qvtvgny pbcl :)</details>
 
 ## **3 - Cloud Computing + Microsoft Admin**
 
-*To be updated in October 2022.*
+[Cloud Fundamentals video series by IBM](https://www.youtube.com/playlist?list=PLOspHqNVtKAC-_ZAGresP-i0okHe5FjcJ)
+
+### Training for Cloud Providers
+
+- [Microsoft Learn](https://learn.microsoft.com/)
+
+- [AWS](https://www.aws.training)
+
+- [Google Cloud](https://cloud.google.com/training)
+
+- [IBM Cloud](https://www.ibm.com/skills/topics/cloud/)
+
+### Azure Certification
+
+Before getting started, remember to [sign up for an Azure account](https://azure.microsoft.com/en-us/free/) using your Microsoft student email (account provided by ISCTE)
+
+[AZ-900: Introduction to Azure Fundamentals](https://learn.microsoft.com/en-us/certifications/exams/az-900)
+    - [Official Learning Path](https://learn.microsoft.com/en-gb/users/23110622/collections/0kjyh8rn5x76j6)
+    - [Video Course](https://youtu.be/NKEFWyqJ5XA)
+    - [Sample Questions and Answers](https://learn.microsoft.com/en-us/certifications/resources/az-900-sample-questions)
+    - Sign up for [Microsoft Virtual Training Days](https://www.microsoft.com/en-us/trainingdays) for a free voucher to take this certification
 
 ## **4 - Virtualization**
 
@@ -231,7 +250,7 @@ V zvtug nyfb or noyr gb cebivqr lbh n qvtvgny pbcl :)</details>
 
 # **Advanced Resources**
 
-(In case you get really into Computer Sciences)
+(For when you want to deepen your knowledge)
 
 - Before you dive in, make sure you're up to date with Khan Academy's [Algebra course](https://www.khanacademy.org/math/algebra-home) or use one of OpenStax's [free textbooks](https://openstax.org/subjects/math)
 
@@ -241,7 +260,7 @@ V zvtug nyfb or noyr gb cebivqr lbh n qvtvgny pbcl :)</details>
 
 - Introduction to Computer Science and Programming via [Harvard's CS50](https://cs50.harvard.edu/x/2022/)
 
-- Deepen your knowledge by [teaching yourself Computer Science](https://teachyourselfcs.com/)
+- [Teach Yourself Computer Science](https://teachyourselfcs.com/) with a recommended list of highly regarded books and resources
 
 - [Crash Course Computer Science](https://www.youtube.com/watch?v=tpIctyqH29Q&list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo) - Series of 10-min videos from early computing and low level computing concepts like the binary system, RAM, instruction sets, all the way to high level concepts like Machine Learning and the Internet.
 
